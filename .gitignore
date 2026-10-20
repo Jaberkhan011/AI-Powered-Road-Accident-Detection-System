@@ -1,0 +1,55 @@
+# Built application files & artifacts
+*.apk
+*.aar
+*.aab
+*.ap_
+*.dex
+*.class
+
+# Build outputs
+build/
+**/build/
+bin/
+gen/
+out/
+captures/
+release/
+**/release/
+
+# Gradle
+.gradle/
+local.properties
+gradle-app.setting
+*.hprof
+.gradle-task-mine
+
+# Kotlin
+.kotlin/
+
+# Android Studio / IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+.navigation/
+.externalNativeBuild/
+.cxx/
+
+# NDK
+obj/
+ndkBuild/
+
+# OS / System generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*~
+*.swp
+
+# Sensitive files & Signing keys
+*.jks
+*.keystore
+google-services.json
+
+# Log files
+*.log
