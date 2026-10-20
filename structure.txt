@@ -1,0 +1,158 @@
+.
+├── app
+│   ├── build.gradle.kts
+│   ├── proguard-rules.pro
+│   ├── release
+│   │   ├── app-release.apk
+│   │   ├── baselineProfiles
+│   │   │   ├── 0
+│   │   │   │   └── app-release.dm
+│   │   │   └── 1
+│   │   │       └── app-release.dm
+│   │   └── output-metadata.json
+│   ├── sampledata
+│   └── src
+│       ├── androidTest
+│       │   └── java
+│       │       └── com
+│       │           └── example
+│       │               └── crashguard
+│       │                   └── ExampleInstrumentedTest.kt
+│       ├── main
+│       │   ├── AndroidManifest.xml
+│       │   ├── ic_launcher-playstore.png
+│       │   ├── java
+│       │   │   └── com
+│       │   │       └── example
+│       │   │           └── crashguard
+│       │   │               ├── AccidentDetection.kt
+│       │   │               ├── addcontact
+│       │   │               │   ├── Contact.kt
+│       │   │               │   ├── ContactAdapter.kt
+│       │   │               │   └── ContactsHelper.kt
+│       │   │               ├── alerthistory
+│       │   │               │   ├── AlertHistoryAdapter.kt
+│       │   │               │   ├── AlertHistoryHelper.kt
+│       │   │               │   └── AlertRecord.kt
+│       │   │               ├── AuthManager.kt
+│       │   │               ├── EmergencyActivity.kt
+│       │   │               ├── fragments
+│       │   │               │   ├── AboutProject.kt
+│       │   │               │   ├── AddContact.kt
+│       │   │               │   ├── AlertHistory.kt
+│       │   │               │   ├── Home.kt
+│       │   │               │   └── MoreOptions.kt
+│       │   │               ├── HelperUtils.kt
+│       │   │               ├── LocationHelper.kt
+│       │   │               ├── LoginActivity.kt
+│       │   │               ├── MainActivity.kt
+│       │   │               ├── MfccExtractor.kt
+│       │   │               ├── SafetyService.kt
+│       │   │               ├── SensorCrashDetector.kt
+│       │   │               ├── SmsHelper.kt
+│       │   │               └── widgets
+│       │   │                   ├── ControlCenterWidget.kt
+│       │   │                   └── ManualSosWidget.kt
+│       │   ├── ml
+│       │   │   ├── accident_3class_quant.tflite
+│       │   │   ├── wake_word_model_quantized.tflite
+│       │   │   └── wake_word_model_three_float.tflite
+│       │   └── res
+│       │       ├── drawable
+│       │       │   ├── circle_red.xml
+│       │       │   ├── delete_24.xml
+│       │       │   ├── filled_add_contact_24.xml
+│       │       │   ├── filled_home_24.xml
+│       │       │   ├── ic_launcher_background.xml
+│       │       │   ├── ic_launcher_foreground.xml
+│       │       │   ├── light_mode_24.xml
+│       │       │   ├── nav_add_contact.xml
+│       │       │   ├── nav_alert_history.xml
+│       │       │   ├── nav_home.xml
+│       │       │   ├── nav_more_options.xml
+│       │       │   ├── outline_account_circle_24.xml
+│       │       │   ├── outline_add_contact_24.xml
+│       │       │   ├── outline_alert_history_24.xml
+│       │       │   ├── outline_crash_detection_24.xml
+│       │       │   ├── outline_dark_mode_24.xml
+│       │       │   ├── outline_delete_history_24.xml
+│       │       │   ├── outline_home_24.xml
+│       │       │   ├── outline_location_on_24.xml
+│       │       │   ├── outline_logout_24.xml
+│       │       │   ├── outline_settings_24.xml
+│       │       │   ├── outline_voice_selection_24.xml
+│       │       │   ├── search_border.xml
+│       │       │   └── sos_24.xml
+│       │       ├── layout
+│       │       │   ├── activity_emergency.xml
+│       │       │   ├── activity_login.xml
+│       │       │   ├── activity_main.xml
+│       │       │   ├── fragment_about_project.xml
+│       │       │   ├── fragment_add_contact.xml
+│       │       │   ├── fragment_alert_history.xml
+│       │       │   ├── fragment_home.xml
+│       │       │   ├── fragment_more_options.xml
+│       │       │   ├── item_contact.xml
+│       │       │   ├── item_history.xml
+│       │       │   ├── widget_control_center.xml
+│       │       │   └── widget_manual_sos.xml
+│       │       ├── menu
+│       │       │   └── bottom_nav.xml
+│       │       ├── mipmap-anydpi
+│       │       ├── mipmap-anydpi-v26
+│       │       │   ├── ic_launcher_round.xml
+│       │       │   └── ic_launcher.xml
+│       │       ├── mipmap-hdpi
+│       │       │   ├── ic_launcher_foreground.webp
+│       │       │   └── ic_launcher_round.webp
+│       │       ├── mipmap-mdpi
+│       │       │   ├── ic_launcher_foreground.webp
+│       │       │   └── ic_launcher_round.webp
+│       │       ├── mipmap-xhdpi
+│       │       │   ├── ic_launcher_foreground.webp
+│       │       │   └── ic_launcher_round.webp
+│       │       ├── mipmap-xxhdpi
+│       │       │   ├── ic_launcher_foreground.webp
+│       │       │   └── ic_launcher_round.webp
+│       │       ├── mipmap-xxxhdpi
+│       │       │   ├── ic_launcher_foreground.webp
+│       │       │   └── ic_launcher_round.webp
+│       │       ├── values
+│       │       │   ├── attrs.xml
+│       │       │   ├── colors.xml
+│       │       │   ├── ic_launcher_background.xml
+│       │       │   ├── ids.xml
+│       │       │   ├── strings.xml
+│       │       │   └── themes.xml
+│       │       ├── values-night
+│       │       │   ├── ids.xml
+│       │       │   ├── strings.xml
+│       │       │   └── themes.xml
+│       │       ├── values-v21
+│       │       ├── values-v23
+│       │       └── xml
+│       │           ├── backup_rules.xml
+│       │           ├── data_extraction_rules.xml
+│       │           ├── widget_info_control.xml
+│       │           └── widget_info_sos.xml
+│       └── test
+│           └── java
+│               └── com
+│                   └── example
+│                       └── crashguard
+│                           └── ExampleUnitTest.kt
+├── build.gradle.kts
+├── gradle
+│   ├── gradle-daemon-jvm.properties
+│   ├── libs.versions.toml
+│   └── wrapper
+│       ├── gradle-wrapper.jar
+│       └── gradle-wrapper.properties
+├── gradle.properties
+├── gradlew
+├── gradlew.bat
+├── local.properties
+├── settings.gradle.kts
+└── structure.txt
+
+46 directories, 110 files
