@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/home"
+        android:id="@+id/Home"
+        android:icon="@drawable/nav_home"
+        android:iconTint="?attr/colorControlNormal"
+        />
+
+    <item android:title="@string/add_contacts"
+        android:id="@+id/AddContacts"
+        android:icon="@drawable/nav_add_contact"
+        android:iconTint="?attr/colorControlNormal"/>
+
+    <item android:id="@+id/placeholder"
+        android:title=""
+        android:enabled="false"
+        />
+
+    <item android:title="@string/alert_history"
+        android:id="@+id/AlertHistory"
+        android:icon="@drawable/nav_alert_history"
+        android:iconTint="?attr/colorControlNormal"/>
+
+    <item android:title="@string/more_options"
+        android:id="@+id/MoreOptions"
+        android:icon="@drawable/nav_more_options"
+        android:iconTint="?attr/colorControlNormal"
+        />
+</menu>

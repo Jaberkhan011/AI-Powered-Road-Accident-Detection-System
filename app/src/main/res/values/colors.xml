@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Professional Palette -->
+    <color name="primary">#ff000000</color>
+    <color name="primary_variant">#67676767</color>
+    <color name="on_primary">#FFFFFF</color>
+
+    <color name="secondary">#34A853</color>
+    <color name="on_secondary">#FFFFFF</color>
+
+    <color name="error">#D93025</color>
+    <color name="on_error">#FFFFFF</color>
+
+    <color name="background">#F8F9FA</color>
+    <color name="on_background">#202124</color>
+
+    <color name="surface">#FFFFFF</color>
+    <color name="on_surface">#202124</color>
+
+    <color name="outline">#DADCE0</color>
+
+    <!-- Status Colors -->
+    <color name="status_safe">#34A853</color>
+    <color name="status_warning">#FBBC04</color>
+    <color name="status_danger">#EA4335</color>
+
+    <!-- Dark theme colors -->
+    <color name="main_background_dark">#0D0D0D</color>
+    <color name="side_background_dark">#171717</color>
+    <color name="primary_text_dark">#ECECEC</color>
+    <color name="Secondary_text_dark">#B4B4B4</color>
+
+    <!-- Light theme colors -->
+    <color name="main_background_light">#FFFFFF</color>
+    <color name="side_background_light">#F9F9F9</color>
+    <color name="primary_text_light">#171717</color>
+    <color name="Secondary_text_light">#313131</color>
+</resources>

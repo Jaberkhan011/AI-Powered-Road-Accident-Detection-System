@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/About"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:maxWidth="310dp"
+            android:text="@string/about_project"
+            android:textAlignment="textStart"
+            app:backgroundTint="?attr/colorPrimary"
+            app:cornerRadius="10dp"
+            app:icon="@drawable/outline_settings_24"
+            app:iconGravity="textStart"
+            app:iconPadding="16dp"
+            app:iconSize="28dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/LiveLocation"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:maxWidth="310dp"
+            android:text="@string/live_location"
+            android:textAlignment="textStart"
+            android:visibility="gone"
+            app:backgroundTint="?attr/colorPrimary"
+            app:cornerRadius="10dp"
+            app:icon="@drawable/outline_location_on_24"
+            app:iconGravity="textStart"
+            app:iconPadding="16dp"
+            app:iconSize="30dp" />
+
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/Logout"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:maxWidth="310dp"
+            android:text="@string/logout"
+            android:textAlignment="textStart"
+            app:backgroundTint="?attr/colorPrimary"
+            app:cornerRadius="10dp"
+            app:icon="@drawable/outline_logout_24"
+            app:iconGravity="textStart"
+            app:iconPadding="16dp"
+            app:iconSize="30dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/SwitchMode"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:maxWidth="310dp"
+            android:text="@string/switch_mode"
+            android:textAlignment="textStart"
+            app:backgroundTint="?attr/colorPrimary"
+            app:cornerRadius="10dp"
+            app:icon="@drawable/outline_dark_mode_24"
+            app:iconGravity="textStart"
+            app:iconPadding="16dp"
+            app:iconSize="30dp" />
+
+    </LinearLayout>
+
+
+
+</ScrollView>
